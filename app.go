@@ -46,7 +46,7 @@ func main() {
 }
 
 func init() {
-	flag.StringVar(&cmd, "c", "download", "upload / download / detectnode")
+	flag.StringVar(&cmd, "c", "download", "upload / download")
 	flag.StringVar(&filename, "f", "-", "filename, `-` for stdin / stdout")
 	flag.StringVar(&hash, "s", "", "hash")
 
